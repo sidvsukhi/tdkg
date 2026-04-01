@@ -11,7 +11,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     python_requires=">=3.8",
-    url="https://github.com/yourusername/tdkg",
+    url="https://github.com/siddsukh/tdkg",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
