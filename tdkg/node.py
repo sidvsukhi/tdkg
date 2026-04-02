@@ -22,4 +22,4 @@ class Node:
         self.importance *= math.exp(-decay_lambda * time_diff)
     
     def __repr__(self):
-        return f"Node(text='{self.text}', weight={self.weight:.2f})"
+        return f"Node(content='{self.content}', importance={self.importance:.2f})"
