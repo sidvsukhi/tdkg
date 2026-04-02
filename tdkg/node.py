@@ -20,3 +20,6 @@ class Node:
     def decay(self, now: float, decay_lambda: float):
         time_diff = now - self.last_accessed
         self.importance *= math.exp(-decay_lambda * time_diff)
+    
+    def __repr__(self):
+        return f"Node(text='{self.text}', weight={self.weight:.2f})"
